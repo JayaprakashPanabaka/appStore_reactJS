@@ -1,1 +1,22 @@
 /* Write your CSS here */
+
+.app-item-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.app-img {
+  height: 150px;
+  width: 150px;
+}
+
+.app-title {
+  color: #1e293b;
+  font-size: 1.2rem;
+  font-weight: 600;
+}

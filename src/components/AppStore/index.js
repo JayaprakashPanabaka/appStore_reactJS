@@ -318,9 +318,9 @@ class AppStore extends Component {
     return searchResults
   }
 
-  getFilteredApps = () => {
+  getFilteredApps = searchResults => {
     const {activeTabId} = this.state
-    const filteredApps = appsList.filter(
+    const filteredApps = searchResults.filter(
       eachAppsDetails => eachAppsDetails.category === activeTabId,
     )
     return filteredApps
